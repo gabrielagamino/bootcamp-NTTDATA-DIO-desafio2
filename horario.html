@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Médica</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table{
+            -webkit-box-shadow: 6px 8px 12px -1px rgba(0,0,0,0.65); 
+            box-shadow: 6px 8px 12px -1px rgba(0,0,0,0.65);
+        }
+        table thead th{
+            background-color: black;
+            color: white;
+        }
+
+        table tbody td{
+            text-align: center;
+        }
+        table tbody tr:nth-child(even) td{
+            background-color: #f1f1f1;
+        }
+
+        table tbody tr:hover td{
+            background-color: #adabab;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h1>Menu</h1>
+            <ul>
+                <li><a href="home.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre a Clínica</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="imagens/horario.jpg" style="height:100%;">
+            </div>
+    
+            <div class="content">
+                <h2>Atendimento</h2>
+                
+                <p>Realizamos diversos serviços. Agende sua consulta!</p>
+                <h3>Preços</h3>
+                <table class="precos" cellspacing="0" cellpadding="5">
+                    <thead>
+                        <tr><th>Serviços</th><th>Preço</th></tr></thead>
+                    <tbody>
+                        <tr><td>Clínica Geral</td><td>R$60,00</td></tr>
+                    <tr><td>Psicologia</td><td>R$100,00</td></tr>
+                    <tr><td>Pediatria</td><td>R$100,00</td></tr>
+                    <tr><td>Oftalmologia</td><td>R$150,00</td></tr></tbody>
+                </table>
+
+                <h3>Horários</h3>
+                <table class="horarios" cellspacing="0" cellpadding="5">
+                    <thead>
+                        <tr><th>Serviços</th><th>Segunda a Sexta</th><th>Sábados</th><th>Feriados</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Clínica Geral</td><td>08h - 19h</td><td>08h - 14h</td><td>08h - 14h</td></tr>
+                        <tr><td>Psicologia</td><td>08h - 19h</td><td>08h - 14h</td><td>08h - 14h</td></tr>
+                        <tr><td>Pediatria</td><td>08h - 19h</td><td>08h - 18h</td><td>-</td></tr>
+                        <tr><td>Oftalmologia</td><td>08h - 19h</td><td>08h - 18h</td><td>-</td></tr>
+                    </tbody>
+                </table>
+
+
+    
+                
+
+                
+            </div>
+    
+            <div class="footer">
+                <p>Copyright 2022 - Gabriela Costa</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
